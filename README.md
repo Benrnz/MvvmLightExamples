@@ -3,6 +3,7 @@ Some examples for Windows 10 Universal App development using MvvmLight
 
 ## Conventions
 Some guiding rules I use in implementing the MVVM model in UWP (and WPF).
+
 1. ViewModels should not contain a reference to any views (pages).
 2. Always prefer XAML over code behind. 99% of all problems can be solved in XAML, and code behind creates problems of its own.
 3. Code behind for views (pages) must be as minimalistic as possible. 99% of ViewModels should only contain a reference to their ViewModel and a GoBack event handler.
